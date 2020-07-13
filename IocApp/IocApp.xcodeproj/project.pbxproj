@@ -13,6 +13,8 @@
 		0E4836C124BB91EB00AFFABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E4836C024BB91EB00AFFABA /* Assets.xcassets */; };
 		0E4836C424BB91EB00AFFABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4836C224BB91EB00AFFABA /* LaunchScreen.storyboard */; };
 		0E4836CD24BB9A3C00AFFABA /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4836CC24BB9A3C00AFFABA /* Register.storyboard */; };
+		B925BF8924BC8CBF0029629A /* FaturaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925BF8824BC8CBF0029629A /* FaturaViewController.swift */; };
+		B925BF8B24BC8DD80029629A /* NewInoviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925BF8A24BC8DD80029629A /* NewInoviceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0E4836C324BB91EB00AFFABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E4836C524BB91EB00AFFABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E4836CC24BB9A3C00AFFABA /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		B925BF8824BC8CBF0029629A /* FaturaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaturaViewController.swift; sourceTree = "<group>"; };
+		B925BF8A24BC8DD80029629A /* NewInoviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewInoviceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				0E4836BD24BB91EB00AFFABA /* Main.storyboard */,
+				B925BF8A24BC8DD80029629A /* NewInoviceViewController.swift */,
+				B925BF8824BC8CBF0029629A /* FaturaViewController.swift */,
 				0E4836C224BB91EB00AFFABA /* LaunchScreen.storyboard */,
 				0E4836CC24BB9A3C00AFFABA /* Register.storyboard */,
 			);
@@ -149,7 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E4836BC24BB91EB00AFFABA /* ViewController.swift in Sources */,
+				B925BF8924BC8CBF0029629A /* FaturaViewController.swift in Sources */,
 				0E4836BA24BB91EB00AFFABA /* AppDelegate.swift in Sources */,
+				B925BF8B24BC8DD80029629A /* NewInoviceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

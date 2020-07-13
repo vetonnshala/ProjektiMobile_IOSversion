@@ -117,32 +117,73 @@
             </objects>
             <point key="canvasLocation" x="85.599999999999994" y="35.532233883058474"/>
         </scene>
-        <!--Root View Controller-->
-        <scene sceneID="gR2-Qa-TQf">
+        <!--Item-->
+        <scene sceneID="OTw-5v-Hp2">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0Nu-Pb-hLv" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tableViewController id="eu0-YF-deO" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" title="Root View Controller" id="dBj-Uq-lgq"/>
-                </tableViewController>
-            </objects>
-            <point key="canvasLocation" x="1046" y="2331"/>
-        </scene>
-        <!--Fatura-->
-        <scene sceneID="PCW-Pp-cxq">
-            <objects>
-                <navigationController title="Fatura" id="CCc-XM-ABZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="7fB-DH-Otw"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="k7J-ar-LAf">
+                <navigationController id="bzh-ax-OfV" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="ZN7-Mg-hGV"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bbQ-M3-OAb">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="eu0-YF-deO" kind="relationship" relationship="rootViewController" id="r5l-eJ-YVs"/>
+                        <segue destination="Hma-8t-zJT" kind="relationship" relationship="rootViewController" id="Y3z-2r-9Z8"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="47C-gs-MMo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hUW-vq-8jU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-81" y="2330"/>
+            <point key="canvasLocation" x="86" y="1659"/>
+        </scene>
+        <!--Fatura View Controller-->
+        <scene sceneID="Owq-KH-WU5">
+            <objects>
+                <viewController id="Hma-8t-zJT" customClass="FaturaViewController" customModule="IocApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oNC-xR-mTV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PZr-CU-0nl">
+                                <rect key="frame" x="73" y="162" width="200" height="50"/>
+                                <color key="backgroundColor" red="0.044828303159999999" green="0.76562982800000001" blue="0.62759870289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="I4k-6F-AOO"/>
+                                    <constraint firstAttribute="height" constant="50" id="nT3-qM-9rr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="SHTO FATUREN E RE"/>
+                                <connections>
+                                    <segue destination="dCc-h5-at9" kind="show" id="JLH-IW-pAS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PZr-CU-0nl" firstAttribute="centerX" secondItem="oNC-xR-mTV" secondAttribute="centerX" id="LJY-yF-cOS"/>
+                            <constraint firstItem="PZr-CU-0nl" firstAttribute="centerY" secondItem="oNC-xR-mTV" secondAttribute="centerY" id="jeF-bG-jxH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bCc-AF-3Wm"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="VxY-GB-Jhu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IWe-vl-hwS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="86" y="2432"/>
+        </scene>
+        <!--New Inovice View Controller-->
+        <scene sceneID="gnZ-UI-WiX">
+            <objects>
+                <viewController id="dCc-h5-at9" customClass="NewInoviceViewController" customModule="IocApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J6m-n3-YnD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="O13-i6-iPR"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QdD-9G-hfp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="86" y="3224"/>
         </scene>
         <!--PorosiaS-->
         <scene sceneID="VO9-Wk-sYp">
@@ -202,7 +243,7 @@
                     <connections>
                         <segue destination="pw4-XM-VIL" kind="relationship" relationship="viewControllers" id="7CL-IU-lZV"/>
                         <segue destination="0P5-rw-4yw" kind="relationship" relationship="viewControllers" id="t8a-cF-4oE"/>
-                        <segue destination="CCc-XM-ABZ" kind="relationship" relationship="viewControllers" id="a9d-wO-rrv"/>
+                        <segue destination="bzh-ax-OfV" kind="relationship" relationship="viewControllers" id="Dik-ne-246"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g2Z-8z-tRF" userLabel="First Responder" sceneMemberID="firstResponder"/>
