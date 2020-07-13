@@ -215,7 +215,7 @@
                                         </constraints>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="route"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hU2-h9-HpG">
                                         <rect key="frame" x="87" y="425.5" width="200" height="30"/>
@@ -234,7 +234,7 @@
                                         </constraints>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="route"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Kategoria" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fqm-rB-d3t">
                                         <rect key="frame" x="87.5" y="275.5" width="200" height="30"/>
@@ -243,7 +243,7 @@
                                         </constraints>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="route"/>
                                         <connections>
                                             <action selector="txtkategoria:" destination="IlD-4q-r1L" eventType="editingDidEnd" id="6Dx-IK-bbc"/>
                                             <outlet property="delegate" destination="dCc-h5-at9" id="NCK-Do-KLg"/>
@@ -256,7 +256,7 @@
                                         </constraints>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="route"/>
                                         <connections>
                                             <action selector="txtkategoria1" destination="IlD-4q-r1L" eventType="editingDidEnd" id="lBg-H9-3K0"/>
                                         </connections>
@@ -300,7 +300,10 @@
                         <viewLayoutGuide key="safeArea" id="O13-i6-iPR"/>
                     </view>
                     <connections>
+                        <outlet property="txtcomment" destination="1FX-4Q-JP9" id="KXQ-FF-USf"/>
                         <outlet property="txtkategoria" destination="Fqm-rB-d3t" id="ibu-5s-phr"/>
+                        <outlet property="txtsum" destination="fFq-i6-0xa" id="LIi-M3-wYx"/>
+                        <outlet property="txttitel" destination="tGc-KU-w52" id="Qod-Mb-RVC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QdD-9G-hfp" userLabel="First Responder" sceneMemberID="firstResponder"/>

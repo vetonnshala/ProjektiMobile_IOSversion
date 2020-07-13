@@ -28,6 +28,9 @@ class NewInoviceViewController: UIViewController, UIPickerViewDataSource,UIPicke
 
     var selectedCategory : String?
     
+    @IBOutlet weak var txtcomment: UITextField!
+    @IBOutlet weak var txtsum: UITextField!
+    @IBOutlet weak var txttitel: UITextField!
     var categoryTypes = ["Ushqim","Karburant","Te Tjera"]
     
     func createPickerView()
@@ -50,6 +53,10 @@ class NewInoviceViewController: UIViewController, UIPickerViewDataSource,UIPicke
         toolBar.isUserInteractionEnabled = true
         
         txtkategoria.inputAccessoryView = toolBar
+        txttitel.inputAccessoryView = toolBar
+        txtsum.inputAccessoryView = toolBar
+        txtcomment.inputAccessoryView = toolBar
+        
     }
     
     @objc func dissmissKeyboard(){
