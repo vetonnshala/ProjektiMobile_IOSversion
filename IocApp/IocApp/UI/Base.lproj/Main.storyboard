@@ -142,7 +142,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="47C-gs-MMo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="105" y="2319"/>
+            <point key="canvasLocation" x="-81" y="2330"/>
         </scene>
         <!--PorosiaS-->
         <scene sceneID="VO9-Wk-sYp">
@@ -151,20 +151,7 @@
                     <view key="view" contentMode="scaleToFill" id="TUk-oW-a6W">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PorosiaV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cdr-WO-8LX">
-                                <rect key="frame" x="119" y="279" width="138" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="0.92795803844287827" blue="0.72279667986356622" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="cBj-7l-cro" firstAttribute="bottom" secondItem="Cdr-WO-8LX" secondAttribute="bottom" constant="318" id="9xr-hg-Qwj"/>
-                            <constraint firstItem="Cdr-WO-8LX" firstAttribute="top" secondItem="cBj-7l-cro" secondAttribute="top" constant="259" id="qzI-I1-GdO"/>
-                            <constraint firstItem="Cdr-WO-8LX" firstAttribute="centerX" secondItem="TUk-oW-a6W" secondAttribute="centerX" id="sYq-eI-CL1"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="cBj-7l-cro"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="Bqg-mG-D0y"/>
