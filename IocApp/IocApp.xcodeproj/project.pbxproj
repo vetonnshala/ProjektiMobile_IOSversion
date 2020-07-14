@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E21618A24BE546500831CFF /* Homeviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E21618924BE546500831CFF /* Homeviewcontroller.swift */; };
 		0E4836BA24BB91EB00AFFABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4836B924BB91EB00AFFABA /* AppDelegate.swift */; };
 		0E4836BC24BB91EB00AFFABA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4836BB24BB91EB00AFFABA /* ViewController.swift */; };
 		0E4836BF24BB91EB00AFFABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4836BD24BB91EB00AFFABA /* Main.storyboard */; };
 		0E4836C124BB91EB00AFFABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E4836C024BB91EB00AFFABA /* Assets.xcassets */; };
 		0E4836C424BB91EB00AFFABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4836C224BB91EB00AFFABA /* LaunchScreen.storyboard */; };
 		0E4836CD24BB9A3C00AFFABA /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4836CC24BB9A3C00AFFABA /* Register.storyboard */; };
+		0EF3B65124BE5E2F0071A23E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF3B65024BE5E2F0071A23E /* CollectionViewCell.swift */; };
 		B925BF8924BC8CBF0029629A /* FaturaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925BF8824BC8CBF0029629A /* FaturaViewController.swift */; };
 		B925BF8B24BC8DD80029629A /* NewInoviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925BF8A24BC8DD80029629A /* NewInoviceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E21618924BE546500831CFF /* Homeviewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homeviewcontroller.swift; sourceTree = "<group>"; };
 		0E4836B624BB91EB00AFFABA /* IocApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IocApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E4836B924BB91EB00AFFABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E4836BB24BB91EB00AFFABA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		0E4836C324BB91EB00AFFABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E4836C524BB91EB00AFFABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E4836CC24BB9A3C00AFFABA /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		0EF3B65024BE5E2F0071A23E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		B925BF8824BC8CBF0029629A /* FaturaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaturaViewController.swift; sourceTree = "<group>"; };
 		B925BF8A24BC8DD80029629A /* NewInoviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewInoviceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +66,7 @@
 			children = (
 				0E4836CB24BB99E300AFFABA /* UI */,
 				0E4836B924BB91EB00AFFABA /* AppDelegate.swift */,
+				0E21618924BE546500831CFF /* Homeviewcontroller.swift */,
 				0E4836BB24BB91EB00AFFABA /* ViewController.swift */,
 				0E4836C024BB91EB00AFFABA /* Assets.xcassets */,
 				0E4836C524BB91EB00AFFABA /* Info.plist */,
@@ -77,6 +82,7 @@
 				B925BF8824BC8CBF0029629A /* FaturaViewController.swift */,
 				0E4836C224BB91EB00AFFABA /* LaunchScreen.storyboard */,
 				0E4836CC24BB9A3C00AFFABA /* Register.storyboard */,
+				0EF3B65024BE5E2F0071A23E /* CollectionViewCell.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -156,6 +162,8 @@
 			files = (
 				0E4836BC24BB91EB00AFFABA /* ViewController.swift in Sources */,
 				B925BF8924BC8CBF0029629A /* FaturaViewController.swift in Sources */,
+				0EF3B65124BE5E2F0071A23E /* CollectionViewCell.swift in Sources */,
+				0E21618A24BE546500831CFF /* Homeviewcontroller.swift in Sources */,
 				0E4836BA24BB91EB00AFFABA /* AppDelegate.swift in Sources */,
 				B925BF8B24BC8DD80029629A /* NewInoviceViewController.swift in Sources */,
 			);
