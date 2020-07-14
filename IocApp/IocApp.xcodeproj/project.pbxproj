@@ -13,6 +13,9 @@
 		0E4836C124BB91EB00AFFABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E4836C024BB91EB00AFFABA /* Assets.xcassets */; };
 		0E4836C424BB91EB00AFFABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4836C224BB91EB00AFFABA /* LaunchScreen.storyboard */; };
 		0E4836CD24BB9A3C00AFFABA /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4836CC24BB9A3C00AFFABA /* Register.storyboard */; };
+		B923D42524BE495800A74E33 /* MyInvoicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923D42424BE495800A74E33 /* MyInvoicesViewController.swift */; };
+		B923D42724BE4EA400A74E33 /* CTMyinvViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923D42624BE4EA400A74E33 /* CTMyinvViewCell.swift */; };
+		B923D42924BE570000A74E33 /* Invoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923D42824BE570000A74E33 /* Invoice.swift */; };
 		B925BF8924BC8CBF0029629A /* FaturaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925BF8824BC8CBF0029629A /* FaturaViewController.swift */; };
 		B925BF8B24BC8DD80029629A /* NewInoviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925BF8A24BC8DD80029629A /* NewInoviceViewController.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +29,9 @@
 		0E4836C324BB91EB00AFFABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E4836C524BB91EB00AFFABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E4836CC24BB9A3C00AFFABA /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		B923D42424BE495800A74E33 /* MyInvoicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInvoicesViewController.swift; sourceTree = "<group>"; };
+		B923D42624BE4EA400A74E33 /* CTMyinvViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTMyinvViewCell.swift; sourceTree = "<group>"; };
+		B923D42824BE570000A74E33 /* Invoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invoice.swift; sourceTree = "<group>"; };
 		B925BF8824BC8CBF0029629A /* FaturaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaturaViewController.swift; sourceTree = "<group>"; };
 		B925BF8A24BC8DD80029629A /* NewInoviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewInoviceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +71,8 @@
 				0E4836BB24BB91EB00AFFABA /* ViewController.swift */,
 				0E4836C024BB91EB00AFFABA /* Assets.xcassets */,
 				0E4836C524BB91EB00AFFABA /* Info.plist */,
+				B923D42424BE495800A74E33 /* MyInvoicesViewController.swift */,
+				B923D42824BE570000A74E33 /* Invoice.swift */,
 			);
 			path = IocApp;
 			sourceTree = "<group>";
@@ -77,6 +85,7 @@
 				B925BF8824BC8CBF0029629A /* FaturaViewController.swift */,
 				0E4836C224BB91EB00AFFABA /* LaunchScreen.storyboard */,
 				0E4836CC24BB9A3C00AFFABA /* Register.storyboard */,
+				B923D42624BE4EA400A74E33 /* CTMyinvViewCell.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -155,7 +164,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E4836BC24BB91EB00AFFABA /* ViewController.swift in Sources */,
+				B923D42524BE495800A74E33 /* MyInvoicesViewController.swift in Sources */,
 				B925BF8924BC8CBF0029629A /* FaturaViewController.swift in Sources */,
+				B923D42924BE570000A74E33 /* Invoice.swift in Sources */,
+				B923D42724BE4EA400A74E33 /* CTMyinvViewCell.swift in Sources */,
 				0E4836BA24BB91EB00AFFABA /* AppDelegate.swift in Sources */,
 				B925BF8B24BC8DD80029629A /* NewInoviceViewController.swift in Sources */,
 			);
