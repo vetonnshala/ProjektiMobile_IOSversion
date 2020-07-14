@@ -70,6 +70,9 @@
 				0E4836BB24BB91EB00AFFABA /* ViewController.swift */,
 				0E4836C024BB91EB00AFFABA /* Assets.xcassets */,
 				0E4836C524BB91EB00AFFABA /* Info.plist */,
+				B923D42424BE495800A74E33 /* MyInvoicesViewController.swift */,
+				B923D42824BE570000A74E33 /* Invoice.swift */,
+				B923D42E24BE65D000A74E33 /* InvoiceDetailsViewController.swift */,
 			);
 			path = IocApp;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E4836BC24BB91EB00AFFABA /* ViewController.swift in Sources */,
+				B923D42524BE495800A74E33 /* MyInvoicesViewController.swift in Sources */,
 				B925BF8924BC8CBF0029629A /* FaturaViewController.swift in Sources */,
 				0EF3B65124BE5E2F0071A23E /* CollectionViewCell.swift in Sources */,
 				0E21618A24BE546500831CFF /* Homeviewcontroller.swift in Sources */,
