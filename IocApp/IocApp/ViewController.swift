@@ -9,12 +9,32 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBAction func txtkategoria(_ sender: Any) {
+
+    @IBOutlet weak var txtpassword: UITextField!
+    @IBOutlet weak var txtemail: UITextField!
+    func dissmissKeyboardView()
+    {
+        let toolBar = UIToolbar()
+        toolBar.sizeToFit()
+        
+        let doneButton = UIBarButtonItem(title:"Done",style: .plain,target: self,action:#selector(self.dissmissKeyboard))
+        
+        toolBar.setItems([doneButton], animated: false)
+        toolBar.isUserInteractionEnabled = true
+        
+        txtpassword.inputAccessoryView = toolBar
+        txtemail.inputAccessoryView = toolBar
+
+        
     }
     
+    @objc func dissmissKeyboard(){
+        view.endEditing(true)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        dissmissKeyboardView()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
