@@ -10,9 +10,17 @@ import UIKit
 
 class FaturaViewController: UIViewController {
 
+    @IBOutlet weak var btnnewinv: UIButton!
+    @IBOutlet weak var btnmyinv: UIButton!
+    @IBOutlet weak var btnallinv: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "fatura"
+        
+        btnnewinv.layer.cornerRadius = btnnewinv.frame.height / 2
+        btnmyinv.layer.cornerRadius = btnmyinv.frame.height / 2
+        btnallinv.layer.cornerRadius = btnallinv.frame.height / 2
+        
         // Do any additional setup after loading the view.
     }
 

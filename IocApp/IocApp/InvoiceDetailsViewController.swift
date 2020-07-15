@@ -10,6 +10,8 @@ import UIKit
 
 class InvoiceDetailsViewController: UIViewController {
 
+    @IBOutlet weak var txtemri: UILabel!
+    
     @IBOutlet weak var txtid: UILabel!
     
     @IBOutlet weak var txtitle: UILabel!
@@ -27,6 +29,7 @@ class InvoiceDetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        txtemri.text = invoice?.name
         txtid.text = invoice?.id
         txtitle.text = invoice?.title
         txttype.text = invoice?.type

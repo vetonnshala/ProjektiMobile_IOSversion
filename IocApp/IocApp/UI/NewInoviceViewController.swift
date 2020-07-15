@@ -9,6 +9,7 @@
 import UIKit
 
 class NewInoviceViewController: UIViewController, UIPickerViewDataSource,UIPickerViewDelegate, UITextFieldDelegate {
+    @IBOutlet weak var btnsend: UIButton!
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
@@ -66,6 +67,7 @@ class NewInoviceViewController: UIViewController, UIPickerViewDataSource,UIPicke
     
     @IBOutlet weak var txtkategoria: UITextField!
     override func viewDidLoad() {
+        btnsend.layer.cornerRadius = btnsend.frame.height / 2
         super.viewDidLoad()
         createPickerView()
         dissmissPickerView()
