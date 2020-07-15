@@ -14,9 +14,13 @@
 		0E4836C124BB91EB00AFFABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E4836C024BB91EB00AFFABA /* Assets.xcassets */; };
 		0E4836C424BB91EB00AFFABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4836C224BB91EB00AFFABA /* LaunchScreen.storyboard */; };
 		0E4836CD24BB9A3C00AFFABA /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4836CC24BB9A3C00AFFABA /* Register.storyboard */; };
-		0EF3B65124BE5E2F0071A23E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF3B65024BE5E2F0071A23E /* CollectionViewCell.swift */; };
 		B925BF8924BC8CBF0029629A /* FaturaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925BF8824BC8CBF0029629A /* FaturaViewController.swift */; };
 		B925BF8B24BC8DD80029629A /* NewInoviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925BF8A24BC8DD80029629A /* NewInoviceViewController.swift */; };
+		B9B5BEA824BEFFCB00E5DAB0 /* Invoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B5BEA724BEFFCA00E5DAB0 /* Invoice.swift */; };
+		B9B5BEAA24BEFFDA00E5DAB0 /* MyInvoicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B5BEA924BEFFD900E5DAB0 /* MyInvoicesViewController.swift */; };
+		B9B5BEAC24BEFFE100E5DAB0 /* InvoiceDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B5BEAB24BEFFE100E5DAB0 /* InvoiceDetailsViewController.swift */; };
+		B9B5BEAE24BEFFF900E5DAB0 /* CTMyinvViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B5BEAD24BEFFF800E5DAB0 /* CTMyinvViewCell.swift */; };
+		B9B5BEB024BF006B00E5DAB0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B5BEAF24BF006B00E5DAB0 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +33,13 @@
 		0E4836C324BB91EB00AFFABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E4836C524BB91EB00AFFABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E4836CC24BB9A3C00AFFABA /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
-		0EF3B65024BE5E2F0071A23E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		B925BF8824BC8CBF0029629A /* FaturaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaturaViewController.swift; sourceTree = "<group>"; };
 		B925BF8A24BC8DD80029629A /* NewInoviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewInoviceViewController.swift; sourceTree = "<group>"; };
+		B9B5BEA724BEFFCA00E5DAB0 /* Invoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invoice.swift; sourceTree = "<group>"; };
+		B9B5BEA924BEFFD900E5DAB0 /* MyInvoicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInvoicesViewController.swift; sourceTree = "<group>"; };
+		B9B5BEAB24BEFFE100E5DAB0 /* InvoiceDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceDetailsViewController.swift; sourceTree = "<group>"; };
+		B9B5BEAD24BEFFF800E5DAB0 /* CTMyinvViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTMyinvViewCell.swift; sourceTree = "<group>"; };
+		B9B5BEAF24BF006B00E5DAB0 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,12 +75,12 @@
 				0E4836CB24BB99E300AFFABA /* UI */,
 				0E4836B924BB91EB00AFFABA /* AppDelegate.swift */,
 				0E21618924BE546500831CFF /* Homeviewcontroller.swift */,
+				B9B5BEA724BEFFCA00E5DAB0 /* Invoice.swift */,
+				B9B5BEA924BEFFD900E5DAB0 /* MyInvoicesViewController.swift */,
+				B9B5BEAB24BEFFE100E5DAB0 /* InvoiceDetailsViewController.swift */,
 				0E4836BB24BB91EB00AFFABA /* ViewController.swift */,
 				0E4836C024BB91EB00AFFABA /* Assets.xcassets */,
 				0E4836C524BB91EB00AFFABA /* Info.plist */,
-				B923D42424BE495800A74E33 /* MyInvoicesViewController.swift */,
-				B923D42824BE570000A74E33 /* Invoice.swift */,
-				B923D42E24BE65D000A74E33 /* InvoiceDetailsViewController.swift */,
 			);
 			path = IocApp;
 			sourceTree = "<group>";
@@ -82,10 +90,11 @@
 			children = (
 				0E4836BD24BB91EB00AFFABA /* Main.storyboard */,
 				B925BF8A24BC8DD80029629A /* NewInoviceViewController.swift */,
+				B9B5BEAD24BEFFF800E5DAB0 /* CTMyinvViewCell.swift */,
+				B9B5BEAF24BF006B00E5DAB0 /* CollectionViewCell.swift */,
 				B925BF8824BC8CBF0029629A /* FaturaViewController.swift */,
 				0E4836C224BB91EB00AFFABA /* LaunchScreen.storyboard */,
 				0E4836CC24BB9A3C00AFFABA /* Register.storyboard */,
-				0EF3B65024BE5E2F0071A23E /* CollectionViewCell.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -163,11 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9B5BEB024BF006B00E5DAB0 /* CollectionViewCell.swift in Sources */,
 				0E4836BC24BB91EB00AFFABA /* ViewController.swift in Sources */,
-				B923D42524BE495800A74E33 /* MyInvoicesViewController.swift in Sources */,
+				B9B5BEA824BEFFCB00E5DAB0 /* Invoice.swift in Sources */,
 				B925BF8924BC8CBF0029629A /* FaturaViewController.swift in Sources */,
-				0EF3B65124BE5E2F0071A23E /* CollectionViewCell.swift in Sources */,
+				B9B5BEAE24BEFFF900E5DAB0 /* CTMyinvViewCell.swift in Sources */,
+				B9B5BEAC24BEFFE100E5DAB0 /* InvoiceDetailsViewController.swift in Sources */,
 				0E21618A24BE546500831CFF /* Homeviewcontroller.swift in Sources */,
+				B9B5BEAA24BEFFDA00E5DAB0 /* MyInvoicesViewController.swift in Sources */,
 				0E4836BA24BB91EB00AFFABA /* AppDelegate.swift in Sources */,
 				B925BF8B24BC8DD80029629A /* NewInoviceViewController.swift in Sources */,
 			);
