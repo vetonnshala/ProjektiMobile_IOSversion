@@ -34,6 +34,7 @@ class InvoiceDetailsViewController: UIViewController {
         txtdate.text = invoice?.date
         txtcomment.text = invoice?.comment
         // Do any additional setup after loading the view.
+        //test
     }
 
 

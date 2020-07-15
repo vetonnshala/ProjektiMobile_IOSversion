@@ -27,7 +27,7 @@ class MyInvoicesViewController: UIViewController,UITableViewDelegate,UITableView
         invoices.append(inv2)
         let inv3 = Invoice(id:"3",name:"Arton Thaqi",title:"Dreka",type:"Ushqim",comment:"Ska",date:"27/07/2020",sum:"100€")
         invoices.append(inv3)
-        let inv4 = Invoice(id:"4",name:"Arton Thaqi",title:"Dreka",type:"Ushqim",comment:"Ska",date:"27/07/2020",sum:"100€")
+        let inv4 = Invoice(id:"4",name:"Veton Shala",title:"Dreka",type:"Ushqim",comment:"Ska",date:"27/07/2020",sum:"100€")
         invoices.append(inv4)
         
     }
