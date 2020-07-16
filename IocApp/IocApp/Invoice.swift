@@ -16,6 +16,7 @@ class Invoice{
     var comment : String
     var date : String
     var sum : String
+    //ni koment
     
     init(id:String,name:String,title:String,type:String,comment:String,date:String,sum:String) {
         
