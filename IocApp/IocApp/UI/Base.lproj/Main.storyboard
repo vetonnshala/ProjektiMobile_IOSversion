@@ -138,6 +138,23 @@
             </objects>
             <point key="canvasLocation" x="86" y="1659"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="iBI-ja-ETc">
+            <objects>
+                <navigationController id="fuX-jT-qXE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="IIp-vT-HLW"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fcY-ey-4L0">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="uuU-E7-L0M" kind="relationship" relationship="rootViewController" id="unH-bT-OB4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e73-1T-xC3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="838" y="1658"/>
+        </scene>
         <!--Fatura View Controller-->
         <scene sceneID="Owq-KH-WU5">
             <objects>
@@ -211,6 +228,120 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IWe-vl-hwS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="85.599999999999994" y="2431.9340329835086"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UzU-xv-P99">
+            <objects>
+                <viewController id="uuU-E7-L0M" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ftW-A4-dkY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mFO-d4-8tR">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOU-Jh-C9K">
+                                        <rect key="frame" x="94" y="146" width="172" height="74"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.67311454955792938" green="1" blue="0.90101464320801394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Shto Porosi te Re"/>
+                                        <connections>
+                                            <segue destination="0On-d2-0a4" kind="show" id="xgN-La-umM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZl-8K-sBm">
+                                        <rect key="frame" x="120" y="277" width="120" height="74"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.67311454955792938" green="1" blue="0.90101464320801394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Porosite"/>
+                                        <connections>
+                                            <segue destination="imT-Ch-EX1" kind="show" id="Oig-pb-Bcj"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mFO-d4-8tR" firstAttribute="leading" secondItem="jJv-uK-P06" secondAttribute="leading" id="8rU-We-3ah"/>
+                            <constraint firstItem="jJv-uK-P06" firstAttribute="bottom" secondItem="mFO-d4-8tR" secondAttribute="bottom" id="Hva-da-hWF"/>
+                            <constraint firstItem="mFO-d4-8tR" firstAttribute="top" secondItem="jJv-uK-P06" secondAttribute="top" id="o71-rg-fOQ"/>
+                            <constraint firstItem="jJv-uK-P06" firstAttribute="trailing" secondItem="mFO-d4-8tR" secondAttribute="trailing" id="uNI-MM-Xuj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jJv-uK-P06"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="w7F-qL-zeu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V7i-Ea-WNT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="838" y="2404"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ek0-ex-7XU">
+            <objects>
+                <viewController id="0On-d2-0a4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NAn-6G-J0I">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Porosia" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="931-vr-bTe">
+                                <rect key="frame" x="91" y="208" width="157" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Derguesi" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qgH-lq-AG6">
+                                <rect key="frame" x="91" y="253" width="157" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Lokacioni" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U7e-KF-LuK">
+                                <rect key="frame" x="91" y="300" width="157" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Marresi" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WTZ-kO-AdF">
+                                <rect key="frame" x="91" y="347" width="157" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Sasia" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vqs-kr-17K">
+                                <rect key="frame" x="91" y="393" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hxh-V6-7h8">
+                                <rect key="frame" x="187" y="393" width="61" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.49692276667376001" green="1" blue="0.93228277451525909" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Shto"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Porosi e Re" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3EK-wK-AFQ">
+                                <rect key="frame" x="91" y="149" width="157" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9813656939802381" green="1" blue="0.97947822521323191" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.32747665409999999" green="1" blue="0.90228870059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="edy-YJ-E8e"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2xw-v3-fxr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1560.8" y="2244.8275862068967"/>
         </scene>
         <!--My Invoices View Controller-->
         <scene sceneID="TPZ-Du-YPm">
@@ -325,6 +456,68 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vgg-6q-FS4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="860" y="3224"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tcz-Rh-G1h">
+            <objects>
+                <viewController id="imT-Ch-EX1" customClass="ViewController" customModule="IocApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qcd-5B-Lgs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pLA-7Z-B4f">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="customCell" id="w1J-RI-VA9" customClass="CustomTableViewCell" customModule="IocApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="w1J-RI-VA9" id="7qT-iB-gPe">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PorosiaID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OYc-hO-QbG">
+                                                    <rect key="frame" x="16" y="11" width="73" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Statusi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifO-WD-e9R">
+                                                    <rect key="frame" x="236" y="11" width="88" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.60799851812131323" green="1" blue="0.92191689536421939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="View" destination="7qT-iB-gPe" id="JuA-HI-h8w"/>
+                                            <outlet property="porosiaID" destination="OYc-hO-QbG" id="Xab-Fa-Sz3"/>
+                                            <outlet property="statusi" destination="ifO-WD-e9R" id="SD2-qY-tQN"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="X7H-QQ-tt5" firstAttribute="bottom" secondItem="pLA-7Z-B4f" secondAttribute="bottom" id="DcI-6p-aPM"/>
+                            <constraint firstItem="pLA-7Z-B4f" firstAttribute="leading" secondItem="X7H-QQ-tt5" secondAttribute="leading" id="LNx-TE-8Lt"/>
+                            <constraint firstItem="X7H-QQ-tt5" firstAttribute="trailing" secondItem="pLA-7Z-B4f" secondAttribute="trailing" id="hDZ-YG-2m7"/>
+                            <constraint firstItem="pLA-7Z-B4f" firstAttribute="top" secondItem="X7H-QQ-tt5" secondAttribute="top" id="tbH-xh-DMV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="X7H-QQ-tt5"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="pLA-7Z-B4f" id="tfw-FL-Yez"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6yD-qZ-G9I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1570.4000000000001" y="3068.8155922038982"/>
         </scene>
         <!--All Invoices View Controller-->
         <scene sceneID="iLf-HW-IdD">
@@ -698,22 +891,6 @@
             </objects>
             <point key="canvasLocation" x="86" y="3986"/>
         </scene>
-        <!--PorosiaS-->
-        <scene sceneID="VO9-Wk-sYp">
-            <objects>
-                <viewController title="PorosiaS" id="0P5-rw-4yw" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="TUk-oW-a6W">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.92795803844287827" blue="0.72279667986356622" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="cBj-7l-cro"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Porosite" image="iconfinder_business-card_216117" id="Bqg-mG-D0y"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yRp-pq-Y9I" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1045.5999999999999" y="1575.5622188905547"/>
-        </scene>
         <!--HomeS-->
         <scene sceneID="IWS-Qx-y0a">
             <objects>
@@ -833,8 +1010,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="pw4-XM-VIL" kind="relationship" relationship="viewControllers" id="7CL-IU-lZV"/>
-                        <segue destination="0P5-rw-4yw" kind="relationship" relationship="viewControllers" id="t8a-cF-4oE"/>
                         <segue destination="bzh-ax-OfV" kind="relationship" relationship="viewControllers" id="Dik-ne-246"/>
+                        <segue destination="fuX-jT-qXE" kind="relationship" relationship="viewControllers" id="jYY-Ha-6RH"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g2Z-8z-tRF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -972,7 +1149,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="iconfinder_business-card_216117" width="24" height="24"/>
         <image name="iconfinder_contacts_216165" width="24" height="24"/>
         <image name="iconfinder_home-outline_216240-3" width="24" height="24"/>
     </resources>

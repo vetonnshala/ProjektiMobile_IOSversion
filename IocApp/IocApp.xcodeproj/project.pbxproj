@@ -14,6 +14,7 @@
 		0E4836C124BB91EB00AFFABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E4836C024BB91EB00AFFABA /* Assets.xcassets */; };
 		0E4836C424BB91EB00AFFABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4836C224BB91EB00AFFABA /* LaunchScreen.storyboard */; };
 		0E4836CD24BB9A3C00AFFABA /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4836CC24BB9A3C00AFFABA /* Register.storyboard */; };
+		A118178024C0B93E0071D633 /* Customviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A118177F24C0B93E0071D633 /* Customviewcontroller.swift */; };
 		B925BF8924BC8CBF0029629A /* FaturaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925BF8824BC8CBF0029629A /* FaturaViewController.swift */; };
 		B925BF8B24BC8DD80029629A /* NewInoviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925BF8A24BC8DD80029629A /* NewInoviceViewController.swift */; };
 		B9353C2624BFA1F400013617 /* CTAllinvTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9353C2524BFA1F400013617 /* CTAllinvTableViewCell.swift */; };
@@ -35,6 +36,7 @@
 		0E4836C324BB91EB00AFFABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E4836C524BB91EB00AFFABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E4836CC24BB9A3C00AFFABA /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		A118177F24C0B93E0071D633 /* Customviewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customviewcontroller.swift; sourceTree = "<group>"; };
 		B925BF8824BC8CBF0029629A /* FaturaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaturaViewController.swift; sourceTree = "<group>"; };
 		B925BF8A24BC8DD80029629A /* NewInoviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewInoviceViewController.swift; sourceTree = "<group>"; };
 		B9353C2524BFA1F400013617 /* CTAllinvTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAllinvTableViewCell.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				0E4836BB24BB91EB00AFFABA /* ViewController.swift */,
 				0E4836C024BB91EB00AFFABA /* Assets.xcassets */,
 				0E4836C524BB91EB00AFFABA /* Info.plist */,
+				A118177F24C0B93E0071D633 /* Customviewcontroller.swift */,
 			);
 			path = IocApp;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				B9353C2624BFA1F400013617 /* CTAllinvTableViewCell.swift in Sources */,
 				B9B5BEAA24BEFFDA00E5DAB0 /* MyInvoicesViewController.swift in Sources */,
 				0E4836BA24BB91EB00AFFABA /* AppDelegate.swift in Sources */,
+				A118178024C0B93E0071D633 /* Customviewcontroller.swift in Sources */,
 				B925BF8B24BC8DD80029629A /* NewInoviceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
