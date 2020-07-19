@@ -341,19 +341,26 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOU-Jh-C9K">
-                                        <rect key="frame" x="94" y="146" width="172" height="74"/>
+                                        <rect key="frame" x="101" y="151" width="172" height="74"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.67311454955792938" green="1" blue="0.90101464320801394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Shto Porosi te Re"/>
+                                        <color key="backgroundColor" red="0.044828303159999999" green="0.76562982800000001" blue="0.62759870289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                        <color key="tintColor" red="0.178190503" green="0.73220935880000004" blue="0.34261731280000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Shto Porosi te Re">
+                                            <color key="titleColor" red="0.98136569399999996" green="1" blue="0.97947822520000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="0On-d2-0a4" kind="show" id="xgN-La-umM"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZl-8K-sBm">
-                                        <rect key="frame" x="120" y="277" width="120" height="74"/>
+                                        <rect key="frame" x="127" y="271" width="120" height="66"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.67311454955792938" green="1" blue="0.90101464320801394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Porosite"/>
+                                        <color key="backgroundColor" red="0.044828303159999999" green="0.76562982800000001" blue="0.62759870289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <state key="normal" title="Porosite">
+                                            <color key="titleColor" red="0.98136569399999996" green="1" blue="0.97947822520000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="imT-Ch-EX1" kind="show" id="Oig-pb-Bcj"/>
                                         </connections>
@@ -375,7 +382,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V7i-Ea-WNT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="838" y="2404"/>
+            <point key="canvasLocation" x="837.60000000000002" y="2403.1484257871066"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ek0-ex-7XU">

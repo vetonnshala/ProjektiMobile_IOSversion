@@ -105,6 +105,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         tableView?.dataSource = self
         
      let fileurl = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false).appendingPathComponent("users.sqlite")
+     //   print(fileurl)
         if sqlite3_open(fileurl.path, &db) != SQLITE_OK {
             print ("Error opening database")
             return
