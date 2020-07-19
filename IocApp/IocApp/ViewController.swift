@@ -65,7 +65,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
         if sqlite3_step(stmt) == SQLITE_DONE{
             print ("User added")
-            let alert = UIAlertController(title: "Alert", message: "Perdoruesi u Shtua", preferredStyle:UIAlertControllerStyle.alert)
+            let alert = UIAlertController(title: "Sukses!", message: "Perdoruesi u Shtua", preferredStyle:UIAlertControllerStyle.alert)
             alert.addAction(UIAlertAction(title:"Mbyll",style:UIAlertActionStyle.default, handler:nil))
             self.present(alert, animated:true, completion:nil)
         }

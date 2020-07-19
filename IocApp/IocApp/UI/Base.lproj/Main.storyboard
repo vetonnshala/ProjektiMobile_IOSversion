@@ -340,10 +340,13 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mFO-d4-8tR">
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOU-Jh-C9K">
-                                        <rect key="frame" x="101" y="151" width="172" height="74"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOU-Jh-C9K">
+                                        <rect key="frame" x="83" y="238" width="208" height="35"/>
                                         <color key="backgroundColor" red="0.044828303159999999" green="0.76562982800000001" blue="0.62759870289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="208" id="OHH-Jy-uKQ"/>
+                                            <constraint firstAttribute="height" constant="35" id="b1n-FQ-geo"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                         <color key="tintColor" red="0.178190503" green="0.73220935880000004" blue="0.34261731280000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Shto Porosi te Re">
@@ -353,10 +356,16 @@
                                             <segue destination="0On-d2-0a4" kind="show" id="xgN-La-umM"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZl-8K-sBm">
-                                        <rect key="frame" x="127" y="271" width="120" height="66"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZl-8K-sBm">
+                                        <rect key="frame" x="144" y="294" width="86" height="39"/>
                                         <color key="backgroundColor" red="0.044828303159999999" green="0.76562982800000001" blue="0.62759870289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="6Qd-aR-x8d"/>
+                                            <constraint firstAttribute="height" constant="39" id="9Kc-Mr-HUQ"/>
+                                            <constraint firstAttribute="width" constant="86" id="BWx-ky-xXa"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="VPU-Ff-L6w"/>
+                                            <constraint firstAttribute="width" constant="86" id="nWV-K9-nox"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                         <state key="normal" title="Porosite">
                                             <color key="titleColor" red="0.98136569399999996" green="1" blue="0.97947822520000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -367,6 +376,15 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="HZl-8K-sBm" firstAttribute="centerX" secondItem="uOU-Jh-C9K" secondAttribute="centerX" id="DHr-tv-Iec"/>
+                                    <constraint firstAttribute="bottom" secondItem="HZl-8K-sBm" secondAttribute="bottom" constant="221" id="IbS-MK-CbQ"/>
+                                    <constraint firstItem="HZl-8K-sBm" firstAttribute="top" secondItem="mFO-d4-8tR" secondAttribute="top" constant="294" id="O7q-0b-t2q"/>
+                                    <constraint firstItem="HZl-8K-sBm" firstAttribute="leading" secondItem="mFO-d4-8tR" secondAttribute="leading" constant="144" id="OO7-NL-obB"/>
+                                    <constraint firstItem="HZl-8K-sBm" firstAttribute="centerX" secondItem="mFO-d4-8tR" secondAttribute="centerX" id="V6h-Q2-9gH"/>
+                                    <constraint firstItem="HZl-8K-sBm" firstAttribute="leading" secondItem="mFO-d4-8tR" secondAttribute="leading" constant="144" id="YC8-LA-aNT"/>
+                                    <constraint firstItem="HZl-8K-sBm" firstAttribute="top" secondItem="uOU-Jh-C9K" secondAttribute="bottom" constant="21" id="pu6-Vh-d86"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
